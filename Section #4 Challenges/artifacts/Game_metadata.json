@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "start",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"game.sol": "Game"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"game.sol": {
+			"keccak256": "0x6befe0910e9854367b62352b636770a4f0001d9de8b84eaee9a79e1ba194c7c3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c55206a607c04caa6dbdf7c904f201efeb89772632bea4cb135c288596c83ddd",
+				"dweb:/ipfs/QmSdNKDmvzJ2XKRWCtJ9pQLCKm266BG6L2PuD9Rci2saco"
+			]
+		}
+	},
+	"version": 1
+}
