@@ -30,7 +30,7 @@ contract Cryptos is ERC20Interface {
     constructor() {
         totalSupply = 1000000;
         founder = msg.sender;
-        balances[founder] = totalSupply; // founder is given the whole supply at the start
+        balances[founder] = totalSupply; // founder is given the whole supply at the start 
     }
 
     function balanceOf(address tokenOwner) public view override returns (uint256) {

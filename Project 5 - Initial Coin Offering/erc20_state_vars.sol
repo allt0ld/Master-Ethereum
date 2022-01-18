@@ -143,6 +143,7 @@ contract CryptosICO is Cryptos {
 
         balances[msg.sender] += tokens;
         balances[founder] -= tokens; // since at first the founder holds all the CRPT
+        deposit.transfer(msg.value);
 
         emit Invest(msg.sender, msg.value, tokens);
 
